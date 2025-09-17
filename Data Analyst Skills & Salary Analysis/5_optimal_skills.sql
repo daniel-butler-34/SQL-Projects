@@ -14,4 +14,4 @@ HAVING COUNT(skills_job_dim.job_id) > 10
 ORDER BY 
     avg_salary DESC,
     job_count DESC
-LIMIT 25
+LIMIT 10
